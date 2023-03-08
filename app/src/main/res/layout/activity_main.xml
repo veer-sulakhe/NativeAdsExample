@@ -53,6 +53,26 @@
             android:text="Refresh Ad" />
 
         <Button
+            android:id="@+id/impressCurrentAdButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Impress Current Advert" />
+
+
+        <Button
+            android:id="@+id/performCurrentAdClickButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Perform current Advert click" />
+
+
+        <Button
             android:id="@+id/requestConsentButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -70,7 +90,7 @@
             android:layout_marginTop="16dp"
             android:text="Reset consent" />
 
-<!--        <EditText-->
+        <!--        <EditText-->
 <!--            android:id="@+id/adUnitIdEdTxt"-->
 <!--            android:layout_width="match_parent"-->
 <!--            android:layout_height="wrap_content"-->
