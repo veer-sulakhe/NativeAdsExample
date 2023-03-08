@@ -70,6 +70,25 @@
             android:layout_marginTop="16dp"
             android:text="Reset consent" />
 
+<Button
+            android:id="@+id/impression_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Impression" />
+
+        <Button
+            android:id="@+id/click_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Click" />
+
+
 <!--        <EditText-->
 <!--            android:id="@+id/adUnitIdEdTxt"-->
 <!--            android:layout_width="match_parent"-->

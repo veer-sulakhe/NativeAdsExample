@@ -107,6 +107,30 @@ class MainActivity : AppCompatActivity() {
             requestGAMUMPConsent()
 
         }
+        
+        mainActivityBinding.impressionButton.setOnClickListener {
+            impressAd()
+        }
+
+        mainActivityBinding.clickButton.setOnClickListener {
+            clickAd()
+        }
+
+    }
+    
+    
+    
+    
+    
+    
+    
+
+    private fun impressAd(){
+        currentCustomFormatAd?.recordImpression()
+    }
+
+    private fun clickAd(){
+            currentCustomFormatAd?.performClick("abc")
     }
 
     override fun onResume() {
